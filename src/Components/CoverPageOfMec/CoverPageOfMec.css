@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+  
+
+}
+
+@media print {
+
+     /* body {
+        height:100%; 
+        margin: 0 !important; 
+        padding:0 !important;
+        overflow: hidden;
+      }
+     */
+  
+  }
+
+  @page:right{ 
+    @bottom-left {
+      margin: 10pt 0 30pt 0;
+      border-top: .25pt solid #666;
+      content: "Our Cats";
+      font-size: 9pt;
+      color: #333;
+    }
+  
+    @bottom-right { 
+      margin: 10pt 0 30pt 0;
+      border-top: .25pt solid #666;
+      content: counter(page);
+      font-size: 9pt;
+    }
+  
+    @top-right {
+      content:  string(doctitle);
+      margin: 30pt 0 10pt 0;
+      font-size: 9pt;
+      color: #333;
+    }
+  }
+  
+.firstsection{
+    text-align: center;
+}
+
+.secondsection{
+    display: flex;
+    padding-top: 40px;
+ 
+}
+
+.secondsection>.firstlayer{
+    flex-basis: 50%;
+}
+
+.secondsection>.secondlayer{
+    flex-basis: 50%;
+    text-align: center;
+}
+.lastsection{
+    display: flex;
+    padding-top: 40px;
+}
+
+
+.lastsection>.firstlayer{
+    flex-basis: 50%;
+}
+
+.lastsection>.secondlayer{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.middlelayer>img{
+    padding-top: 50px;
+}
+
+.fontsize{
+    font-size: 20px;
+}
+
+.firstsection>img{
+    width: 200px;
+}
+
+.title1{
+font-size: 25px;
+ 
+}
+.title2{
+    font-size: 22px;  
+    line-height: 20px;
+}
+
+
+
+.pdf{
+    background-color: white;
+      padding: 40px;  
+}
+
+.inputboxdesign{
+    outline: none;
+    border: none;
+   /* width:100px; */
+   width:auto;
+   font-size: 20px;
+}
+
+.lastfont{
+    font-size: 15px;
+}
+
+.printbutton{
+    margin: 20px;
+   padding:8px  20px 8px 20px;
+   border-radius: 10px;
+   border:none;
+   color: white;
+   font-size: 20px;
+   background: #121886;
+}
+#elementH{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+ 
+  header
+{
+    display:none;
+}
+ 
+footer
+{
+    display:none;
+}
+
+

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+  
+
+}
+.printbutton{
+    margin: 20px;
+   padding:8px  20px 8px 20px;
+   border-radius: 10px;
+   border:none;
+   color: white;
+   font-size: 20px;
+   background: #121886;
+}
+#elementH{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.howpeoplesee{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 244, 244);
+    margin: 0px;
+     
+   
+}
+body{
+    margin: 0px;
+    padding:0px
+   
+}
