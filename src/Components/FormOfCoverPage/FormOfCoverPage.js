@@ -8,11 +8,10 @@ export class FormOfCoverPage extends Component {
         // departmentdata : "",
         // teachersdata:"",
         departmentdata : [{"dept_name":"Computer Science & Engineering","id":"1","inst_id":"1"},{"dept_name":"Civil Engineering","id":"2","inst_id":"1"},{"dept_name":"Electrical & Electronics Engineering","id":"3","inst_id":"1"}],
-        
-         teachersdata:[{"department":"Computer Science & Engineering","id":"1","inst_id":"1","name":"Md. Alamgir Hossain","position":"Professor (CSE)","quality":"M.Sc. in CSE"},{"department":"Faculty of Non Tech","id":"2","inst_id":"1","name":"Dr. Mohammad Mahbubr Rahman ","position":"Associate Professor (Chemistry)","quality":"B.Sc. (Hons), M.Sc.(D.U.), Ph.D.(R.U.)"},{"department":"Civil Engineering","id":"3","inst_id":"1","name":"Md.  Assaduzzaman","position":"Assistant Professor & Head of the Department(CE)","quality":"B.Sc in Civil Engg. (KUET); M.Sc in Civil & Geotechnical Engg. (BUET)"},{"department":"Electrical & Electronics Engineering","id":"4","inst_id":"1","name":"Engr. S. M. Anowarul Haque","position":"Assistant Professor & Head of the Department(EEE)","quality":"B.Sc. Engineering (EEE)"},{"department":"Computer Science & Engineering","id":"5","inst_id":"1","name":"Engr. Rownak Ara Chowdhury","position":"Assistant Professor & Head of the Department (CSE)","quality":"M.Sc in CSE"},{"department":"Computer Science & Engineering","id":"6","inst_id":"1","name":"Engr. Khaleda Ferdousi","position":"Assistant Professor (CSE) ","quality":"M.Sc. in CSE"},{"department":"Faculty of Non Tech","id":"7","inst_id":"1","name":"Muhammad Abdus Sattar Titu","position":"Assistant Professor (Mathematics) & Head of the Department(Non-Tech)","quality":"B.Sc. (Hons), MS (CU.)"},{"department":"Faculty of Non Tech","id":"8","inst_id":"1","name":"Jebunnesa Roma","position":"Assistant Professor (Physics))","quality":"B.Sc. (Hons), M.Sc.(Physics)"},{"department":"Faculty of Non Tech","id":"9","inst_id":"1","name":"A S M Farhadul Alam","position":"Lecturer","quality":"B.Sc. (Hons), M.Sc.(Physics)"},{"department":"Computer Science & Engineering","id":"10","inst_id":"1","name":"Md. Nagrul Islam","position":"Lecturer","quality":"B.Sc. Engineering (CSE)"},{"department":"Civil Engineering","id":"11","inst_id":"1","name":"Md. Nuruzzaman","position":"Lecturer","quality":"B.Sc. Engineering (CE)"},{"department":"Electrical & Electronics Engineering","id":"12","inst_id":"1","name":"Md. Salah Uddin","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Computer Science & Engineering","id":"13","inst_id":"1","name":"Ozifatun Jannat Akhi","position":"Lecturer","quality":"B.Sc. Engineering (CSE)"},{"department":"Civil Engineering","id":"14","inst_id":"1","name":"Tahia Rabbee","position":"Lecturer","quality":"B.Sc. Engineering (CE)"},{"department":"Electrical & Electronics Engineering","id":"15","inst_id":"1","name":"Engr. Abdul Wahed","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Faculty of Non Tech","id":"16","inst_id":"1","name":"Mrinal Kanti Roy","position":"Lecturer (Chemistry)","quality":"B.Sc. (Hons.), M.Sc. (Chemistry)"},{"department":"Electrical & Electronics Engineering","id":"17","inst_id":"1","name":"Md. Afzal Hossain","position":"Work Shop/Laboratory In Charge","quality":"B.Sc. in Civil Engineering"},{"department":"Faculty of Non Tech","id":"18","inst_id":"1","name":"Mahfujur Rahman Resel","position":"Lecturer","quality":"B.Sc. (Hons), M.Sc. (Math.)"},{"department":"Civil Engineering","id":"19","inst_id":"1","name":"Utpal Goswami","position":"Workshop/Laboratory Incharge","quality":"B.Sc. Engineering (CE)"},{"department":"Faculty of Non Tech","id":"20","inst_id":"1","name":"Jamini Chandra Bormmon","position":"Lecturer (Math)","quality":"M.Sc. (Applied Mathematics)"},{"department":"Faculty of Non Tech","id":"21","inst_id":"1","name":"Muhammad Saqibul Amin","position":"Lecturer","quality":"B.S.S (Hons.), M.S.S (Public Administration)"},{"department":"Electrical & Electronics Engineering","id":"22","inst_id":"1","name":"Engr. Aysha Siddika","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Electrical & Electronics Engineering","id":"23","inst_id":"1","name":"Engr. Md. Khalid Saifullah","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Computer Science & Engineering","id":"24","inst_id":"1","name":"Mohammed Shamsul Haque","position":"Craft Instructor (CSE)","quality":"M.A; B.P.Ed; Diploma in Engineering (CmT)"},{"department":"Civil Engineering","id":"25","inst_id":"1","name":"Kamal Chandra Sarkar","position":"Craft Instructor (CE)","quality":"B.Sc. (Hons), M.Sc (Math)"}],
+        teachersdata:"",
+        // teachersdata:[{"department":"Computer Science & Engineering","id":"1","inst_id":"1","name":"Md. Alamgir Hossain","position":"Professor (CSE)","quality":"M.Sc. in CSE"},{"department":"Faculty of Non Tech","id":"2","inst_id":"1","name":"Dr. Mohammad Mahbubr Rahman ","position":"Associate Professor (Chemistry)","quality":"B.Sc. (Hons), M.Sc.(D.U.), Ph.D.(R.U.)"},{"department":"Civil Engineering","id":"3","inst_id":"1","name":"Md.  Assaduzzaman","position":"Assistant Professor & Head of the Department(CE)","quality":"B.Sc in Civil Engg. (KUET); M.Sc in Civil & Geotechnical Engg. (BUET)"},{"department":"Electrical & Electronics Engineering","id":"4","inst_id":"1","name":"Engr. S. M. Anowarul Haque","position":"Assistant Professor & Head of the Department(EEE)","quality":"B.Sc. Engineering (EEE)"},{"department":"Computer Science & Engineering","id":"5","inst_id":"1","name":"Engr. Rownak Ara Chowdhury","position":"Assistant Professor & Head of the Department (CSE)","quality":"M.Sc in CSE"},{"department":"Computer Science & Engineering","id":"6","inst_id":"1","name":"Engr. Khaleda Ferdousi","position":"Assistant Professor (CSE) ","quality":"M.Sc. in CSE"},{"department":"Faculty of Non Tech","id":"7","inst_id":"1","name":"Muhammad Abdus Sattar Titu","position":"Assistant Professor (Mathematics) & Head of the Department(Non-Tech)","quality":"B.Sc. (Hons), MS (CU.)"},{"department":"Faculty of Non Tech","id":"8","inst_id":"1","name":"Jebunnesa Roma","position":"Assistant Professor (Physics))","quality":"B.Sc. (Hons), M.Sc.(Physics)"},{"department":"Faculty of Non Tech","id":"9","inst_id":"1","name":"A S M Farhadul Alam","position":"Lecturer","quality":"B.Sc. (Hons), M.Sc.(Physics)"},{"department":"Computer Science & Engineering","id":"10","inst_id":"1","name":"Md. Nagrul Islam","position":"Lecturer","quality":"B.Sc. Engineering (CSE)"},{"department":"Civil Engineering","id":"11","inst_id":"1","name":"Md. Nuruzzaman","position":"Lecturer","quality":"B.Sc. Engineering (CE)"},{"department":"Electrical & Electronics Engineering","id":"12","inst_id":"1","name":"Md. Salah Uddin","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Computer Science & Engineering","id":"13","inst_id":"1","name":"Ozifatun Jannat Akhi","position":"Lecturer","quality":"B.Sc. Engineering (CSE)"},{"department":"Civil Engineering","id":"14","inst_id":"1","name":"Tahia Rabbee","position":"Lecturer","quality":"B.Sc. Engineering (CE)"},{"department":"Electrical & Electronics Engineering","id":"15","inst_id":"1","name":"Engr. Abdul Wahed","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Faculty of Non Tech","id":"16","inst_id":"1","name":"Mrinal Kanti Roy","position":"Lecturer (Chemistry)","quality":"B.Sc. (Hons.), M.Sc. (Chemistry)"},{"department":"Electrical & Electronics Engineering","id":"17","inst_id":"1","name":"Md. Afzal Hossain","position":"Work Shop/Laboratory In Charge","quality":"B.Sc. in Civil Engineering"},{"department":"Faculty of Non Tech","id":"18","inst_id":"1","name":"Mahfujur Rahman Resel","position":"Lecturer","quality":"B.Sc. (Hons), M.Sc. (Math.)"},{"department":"Civil Engineering","id":"19","inst_id":"1","name":"Utpal Goswami","position":"Workshop/Laboratory Incharge","quality":"B.Sc. Engineering (CE)"},{"department":"Faculty of Non Tech","id":"20","inst_id":"1","name":"Jamini Chandra Bormmon","position":"Lecturer (Math)","quality":"M.Sc. (Applied Mathematics)"},{"department":"Faculty of Non Tech","id":"21","inst_id":"1","name":"Muhammad Saqibul Amin","position":"Lecturer","quality":"B.S.S (Hons.), M.S.S (Public Administration)"},{"department":"Electrical & Electronics Engineering","id":"22","inst_id":"1","name":"Engr. Aysha Siddika","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Electrical & Electronics Engineering","id":"23","inst_id":"1","name":"Engr. Md. Khalid Saifullah","position":"Lecturer","quality":"B.Sc. Engineering (EEE)"},{"department":"Computer Science & Engineering","id":"24","inst_id":"1","name":"Mohammed Shamsul Haque","position":"Craft Instructor (CSE)","quality":"M.A; B.P.Ed; Diploma in Engineering (CmT)"},{"department":"Civil Engineering","id":"25","inst_id":"1","name":"Kamal Chandra Sarkar","position":"Craft Instructor (CE)","quality":"B.Sc. (Hons), M.Sc (Math)"}],
         loading:true,
-        
-        name:"Raihan Miraj",
+         name:"Raihan Miraj",
         classroll:"349",
         roll:"44",
         reg_no:2891,
@@ -29,19 +28,19 @@ export class FormOfCoverPage extends Component {
 
     }
     
-componentDidMount(){
-    axios.get('https://mecstudent-26f67-default-rtdb.firebaseio.com/meccover.json' )
-      .then( (response)=> {
-        console.log(response.data);
-        this.setState({
-            // departmentdata:response.data.department,
-            teachersdata:response.data,  
-        loading:false      })
-      })
-      .catch((error)=> {
-        console.log(error);
-      });
-}
+    componentDidMount(){
+        axios.get('https://mecstudent-26f67-default-rtdb.firebaseio.com/meccover.json' )
+          .then( (response)=> {
+            console.log(response);
+            this.setState({
+                // departmentdata:response.data.department,
+                teachersdata:response.data,  
+            loading:false      })
+          })
+          .catch((error)=> {
+            console.log(error);
+          });
+    }
 
 submitHandler = ()=>{
     this.setState({loading:true,
@@ -86,18 +85,12 @@ var teacherDataSelect = Object.keys(teacher).map(i=>{
     return <option value={i}>{teacher[i].name}</option>
 })
 
-        }
-
-
         
-        var teachersname =  this.state.loading==false?this.state.teachersdata[this.state.teacher].name:"hello";
-        var  teacherposition =  this.state.loading==false?this.state.teachersdata[this.state.teacher].quality:"hello";
-        var  teacherdept =  this.state.loading==false?this.state.teachersdata[this.state.teacher].position:"hello";
-
+ 
 var departmentName = this.state.loading==false?this.state.departmentdata[this.state.department].dept_name:"hello";
-// var teachersname =   this.state.teachersdata[this.state.teacher].name ;
-// var  teacherposition = this.state.teachersdata[this.state.teacher].quality ;
-// var  teacherdept =   this.state.teachersdata[this.state.teacher].position ;
+  var teachersname =   this.state.teachersdata[this.state.teacher].name ;
+ var  teacherposition = this.state.teachersdata[this.state.teacher].quality ;
+  var  teacherdept =   this.state.teachersdata[this.state.teacher].position ;
 
 var departmentName =  this.state.departmentdata[this.state.department].dept_name ;
 var formRender =    <div class="form">
@@ -169,7 +162,7 @@ var formRender =    <div class="form">
 
 </div>
 </div>;
-
+}
         return (
             <div>
                 
@@ -188,9 +181,9 @@ studentroll ={this.state.roll}
 classroll = {this.state.classroll}
 reg_no ={this.state.reg_no}
 studentbatch = {this.state.batch}
-teachername = {teachersname}
-teacherposition =  {teacherposition}
-teacherdept =  {teacherdept}
+teachername = {this.state.teachersdata[this.state.teacher].name}
+teacherposition =  {this.state.teachersdata[this.state.teacher].quality}
+teacherdept =  {this.state.teachersdata[this.state.teacher].position}
 dateofexp =  {this.state.dateofexpname + ' : '+this.state.dateofexp}
 labreportofassignment = {this.state.labreportofassignment}/>:""}
 </div>
