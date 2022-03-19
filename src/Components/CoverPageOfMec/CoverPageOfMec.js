@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import logoMec from './MEC_LOGO_new.png'
-import './CoverPageOfMec.css'
+ import './CoverPageOfMec.css'
 import Dag from './dag.png';
 
 export class CoverPageOfMec extends Component {
@@ -13,7 +12,7 @@ export class CoverPageOfMec extends Component {
   
 <div class="firstsection">
     <h1 id="institutename">{this.props.institutename}</h1>
-<img src={logoMec} alt=""/>
+<img src="/meclogo.png" alt=""/>
     <h1 class="title1">  <span id="deptname"   >{this.props.deptname}</span></h1>
 
   

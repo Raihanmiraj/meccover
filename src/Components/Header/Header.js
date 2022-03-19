@@ -7,7 +7,7 @@ export class Header extends Component {
         return (
             
                 <div className="headerback"  >
-                    <h1> Mymensingh Engineering College</h1>
+                    <h1> Mymensingh Engineering College</h1><img   src='/meclogo.png'/>
                 </div>
            
         )
