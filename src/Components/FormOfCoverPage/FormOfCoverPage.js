@@ -3,7 +3,6 @@ import './FormOfCoverPage.css';
 import axios from 'axios';
 import CoverPageOfMec from '../CoverPageOfMec/CoverPageOfMec';
 import Header from '../Header/Header';
-import { Link } from 'react-router-dom';
 export class FormOfCoverPage extends Component {
     state = {
         // departmentdata : "",
