@@ -18,8 +18,8 @@ export class CoverPageOfMec extends Component {
   
 
     <h1 id="labreportofassignment" class="title1">{this.props.labreportofassignment}</h1>
-    <h1 class="title2">Course Name : <span id="coursename"   >{this.props.coursename}</span></h1>
-    <h1 class="title2">Course Code : <span id="coursecode"   >{this.props.coursecode}</span></h1>
+    <h1 class="title2"><span id="coursename"   >{this.props.coursename}</span></h1>
+    <h1 class="title2"><span id="coursecode"   >{this.props.coursecode}</span></h1>
 
    
 
@@ -29,11 +29,12 @@ export class CoverPageOfMec extends Component {
 <div class="secondsection">
 <div class="firstlayer">
 <h1 class="title1" style={{textAlign: "center"}}>Submitted By :</h1>
-<h1 class="fontsize">Name : <span   >{this.props.studentname}</span></h1>
-<h1  class="fontsize" >Class Roll : <span   >{this.props.classroll}</span></h1>
-<h1  class="fontsize" >Exam Roll : <span   >{this.props.studentroll}</span></h1>
-<h1  class="fontsize" >Registration No : <span   >{this.props.reg_no}</span></h1>
-<h1  class="fontsize" >Batch : <span   >{this.props.studentbatch}</span></h1>
+<h1 class="fontsize"><span   >{this.props.studentname}</span></h1>
+<h1  class="fontsize" ><span   >{this.props.classroll}</span></h1>
+
+{this.props.studentroll!=''?<h1  class="fontsize" ><span   >{this.props.studentroll}</span></h1>:""}
+<h1  class="fontsize" ><span   >{this.props.reg_no}</span></h1>
+<h1  class="fontsize" ><span>{this.props.studentbatch}</span></h1>
 </div>
 
 <div class="middlelayer">
@@ -59,6 +60,7 @@ export class CoverPageOfMec extends Component {
 <div class="lastsection">
 <div class="firstlayer">
 <h1 class="lastfont"> <span id="dateofexp"   >{this.props.dateofexp}</span></h1>
+<h1 class="lastfont"> <span id="dateofexp"   >{this.props.dateofsub}</span></h1>
 </div>
 <div class="secondlayer">
 <div >……………………………….</div>

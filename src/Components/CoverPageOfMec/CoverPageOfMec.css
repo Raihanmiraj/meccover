@@ -18,7 +18,14 @@
   
   }
 
+  @page {
+    size: A4;
+   
+  }
+  @media print {
 
+    /* ... the rest of the rules ... */
+}
   
 .firstsection{
     text-align: center;
